@@ -1,0 +1,37 @@
+<?php $__env->startSection('content'); ?>
+<div class="alert alert-info alert-dismissable">
+    <header class="col-lg-offset-4 col-lg-offset-4">
+        <h1>Aksesoris Wanita</h1>
+    </header>
+
+</div>
+<div class="alert alert-info">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Kode Barang</th>
+                <th>Nama Barang</th>
+                <th>Jenis</th>
+                <th>Harga</th>
+                <th>Gambar</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php foreach ($AccWanita as $val) { ?>
+                <tr>
+                    <td><?php echo $val->kode_barang ?></td>
+                    <td><?php echo $val->nama_barang ?></td>
+                    <td><?php echo $val->jenis_barang ?></td>
+                    <td><?php echo $val->harga ?></td>
+                    <td><?php echo $val->gambar ?></td>
+                    
+                </tr>
+            <?php } ?>
+        </tbody>
+    </table>
+    
+</div>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout.bootstrap3.index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

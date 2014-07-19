@@ -1,0 +1,12 @@
+Nama : Sangataru Asa Chonidia
+Nim : 1010510109
+Jobdesk :  >Aksesoris Pria
+	>Pembelian
+	  - edit
+
+Nama : Hamzan Wadi
+Nim : 1010520138
+Jobdesk : >Aksesoris Wanita
+	>Pembelian
+	  -tambah
+	  -delet
